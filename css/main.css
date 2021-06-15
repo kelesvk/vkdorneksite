@@ -1,0 +1,227 @@
+.container{
+    
+    max-width: 1180px ;
+    margin: 0 auto;
+    
+}
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+.alignLeft{
+    float: left;
+
+}
+.alignRight{
+float: right;
+
+}
+#mainArea{
+    background-image: url('../img/mainij.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 28px;
+}
+.nav li{
+
+    display: inline-block;
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 55px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+
+}
+.nav li a:hover{
+    border-bottom: 2px solid white;
+
+}
+.mainContent{
+   display: inline-block; 
+   text-align: left;
+   margin-top: 110px;
+}
+.mainContent h1{
+    font-size: 80px;
+    color: #4ea39b;
+    margin-bottom: 90px;
+    
+}
+.mainparagraph{
+    width: 760px;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 65px;
+}
+.mainContent img{
+    margin-bottom: 65px;
+    width: 90px;
+}
+#mainHakkimda{
+    background-image: url('../img/hakkımdaij.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 28px;
+}
+#mainHakkimda .container{
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.hakkimdaalt{
+    text-align: center;
+    color: white;
+}
+h2{
+    font-size: 58px;
+    color: white;
+}
+h2::after{
+    content:" " ;
+    display: block;
+    width: 300px;
+    height: 2px;
+    background-color: white;
+    margin: 10px auto 10px auto;
+
+}
+.hakkimdaparagraph{
+    width: 980px;
+    margin: auto;
+    font-size: 22px;
+}
+#mainPortfolyo{
+    background-image: url('../img/portfolyoij.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+#mainPortfolyo .container{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 55px;
+}
+.portfolyoParagraph{
+    width: 980px;
+    margin: 50px auto;
+    font-size: 22px;
+    color: white;
+    
+}
+h3{
+    color: white;
+    font-size: 32px;
+    width: 320px;
+    margin: 30px;
+}
+.col-4{
+    width: 33.33%;
+    float: left;
+    
+    
+}
+.col-4 a{
+    text-decoration: none;
+}
+.portfolyoAlt{
+    display: inline-block;
+}
+.dahafazla{
+    margin:  auto;
+}
+#mainiletisim{
+    background-image: url('../img/iletisimbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+#mainiletisim .container{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 55px;
+    
+}
+.iletisimform{
+    width: 40% ;
+    float: left;
+    padding: 5px;
+    
+}
+.iletisim{
+    display: inline-block;
+}
+input{
+    width: 310px;
+    padding: 5px 20px ;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+textarea{
+    margin-bottom: 10px;
+    width: 310px;
+    height: 135px;
+    padding: 5px 20px;
+    outline: none;
+    border: none;
+    padding-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.gonderbuton{
+    background-color: #4ea39b;
+    color: white;
+    width: 150px;
+    float: left;
+    position: relative; left: 60px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+.iletisimSag{
+    float: right;
+    height: 80px;
+    padding: 35px;
+    margin-top: 40px;
+    
+}
+h4{
+    color: white;
+    
+}
+.iletisimSag a{
+    text-decoration: none;
+}
+#mainfooter{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#mainfooter .container{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.footer{
+    text-align: center;
+    color: white;
+}
